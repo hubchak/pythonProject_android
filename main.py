@@ -10,6 +10,7 @@ Config.set("graphics", "width", 600)
 Config.set("graphics", "height", 400)
 
 
+
 class Application(App):
     def click(self, instance):
         self.label.text = "ТЫ жамкнул кнопку!"
